@@ -1,0 +1,36 @@
+{
+  "name": "custom-system-builder",
+  "patterns": [
+    {
+      "name": "delimiter.bracket.placeholder.system-builder",
+      "match": "\\$\\{|\\}\\$",
+      "settings": {
+        "foreground": "#B392F0"
+      }
+    },
+    {
+      "name": "source.js.embedded.system-builder",
+      "begin": "%\\{",
+      "beginCaptures": {
+        "0": {
+          "name": "delimiter.bracket.js.system-builder"
+        }
+      },
+      "end": "\\}%",
+      "endCaptures": {
+        "0": {
+          "name": "delimiter.bracket.js.system-builder"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.js"
+        }
+      ]
+    },
+    {
+      "include": "text.html.basic"
+    }
+  ],
+  "scopeName": "source.custom-system-builder"
+}

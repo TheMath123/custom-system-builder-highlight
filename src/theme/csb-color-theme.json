@@ -1,0 +1,18 @@
+{
+  "name": "CSB Theme",
+  "type": "dark",
+  "tokenColors": [
+    {
+      "scope": "delimiter.begin.system-builder",
+      "settings": {
+        "foreground": "#FF4500"
+      }
+    },
+    {
+      "scope": "delimiter.end.system-builder",
+      "settings": {
+        "foreground": "#FF4500"
+      }
+    }
+  ]
+}
