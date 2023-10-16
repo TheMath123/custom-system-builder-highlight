@@ -2,7 +2,7 @@
   "name": "custom-system-builder-highlight",
   "displayName": "custom-system-builder-highlight",
   "description": "",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -30,7 +30,7 @@
       {
         "language": "custom-system-builder",
         "scopeName": "source.custom-system-builder",
-        "path": "./src/syntaxes/csb.tmLanguage.json"
+        "path": "./syntaxes/csb.tmLanguage.json"
       }
     ]
   },
